@@ -1,0 +1,122 @@
+/* NUESTROS ESTILOS */
+body {
+	background-color: #f8edd177 ;
+}
+
+/* seccion navbar */
+
+
+
+/* seccion carousel */
+
+.carousel {
+	margin-bottom: 100px;
+}
+
+.carousel-caption .banner {
+	font-family: "Dosis", sans-serif;
+	font-size: 80px;
+	word-spacing: 500%;
+}
+
+.carousel-caption #titulo-pagina {
+	font-family: "Anton", sans-serif;
+	font-weight: 200px;
+	font-size: 100px;
+	word-spacing: 500%;
+}
+
+
+/* seccion main */
+main {
+	padding-top: 50px;
+}
+
+main>#contenidoGenerado {
+	padding-left: 100px;
+	padding-right: 100px;
+	justify-content: center;
+}
+
+main .card-deck {
+	padding-bottom: 40px;
+}
+
+main .card-deck {
+	margin: 5% 0%;
+}
+
+main .card-deck .div-boton-comprar {
+	padding-left: 50%;
+}
+
+main .card-deck .rating {
+	padding-left: 0%;
+}
+
+@media (max-width: 700px) {
+	.card-body {
+		padding: 0 1rem 1rem 1rem;
+	}
+
+	.card-top {
+		padding: 0.7rem 1rem;
+	}
+
+	#titulo-pagina {
+		display: inline;
+		font-family: "Anton", sans-serif;
+		font-weight: 50px;
+		font-size: 30px;
+		word-spacing: 500%;
+	}
+
+	.banner {
+		font-family: "Dosis", sans-serif;
+		font-size: 30px;
+		word-spacing: 500%;
+	}
+}
+
+
+
+/* seccion footer */
+
+#footer {
+  text-align: center;
+  padding: 100px; }
+  #footer .social-icon {
+    margin: 20px 10px; }
+  #footer p {
+    color: #8f8f8f; }
+
+/* Fondo del ingreso */
+
+
+/* Formmulario de ingreso*/
+#form {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    width: 500px;
+    height: auto;
+    background-color: #ffe194;
+    padding: 35px;
+    color: rgba(3, 3, 3, 0.788);
+    font-family: 'Alegreya Sans', sans-serif;
+    border-radius: 10px;  
+	
+}
+input, button {
+    padding: 15px;
+    border-radius: 5px;
+    outline: 5px;
+    border: solid 1px #ffb319 ;
+    width: 300px;
+    
+}
+
+.btn-green{
+    color: #faedf3;
+    background-color:  #ffb319;
+}
