@@ -1,9 +1,14 @@
 /* NUESTROS ESTILOS */
+
 body {
-	background-color: #f8edd177 ;
+	background-color: #6D8299;
 }
 
+
 /* seccion navbar */
+
+#contenedor-boton {
+  padding-left: 60%; }
 
 
 
@@ -79,19 +84,30 @@ main .card-deck .rating {
 }
 
 
-
 /* seccion footer */
 
 #footer {
   text-align: center;
-  padding: 100px; }
+  padding: 100px; 
+  background-color: #316B83;
+}
   #footer .social-icon {
-    margin: 20px 10px; }
+    margin: 20px 10px;
+    color: black;
+ }
   #footer p {
-    color: #8f8f8f; }
+    color: black;  }
 
-/* Fondo del ingreso */
-
+#adoptar {
+	display: flex;
+	justify-content: center;
+	margin: 2% auto;
+	padding: 50px;
+	width: 50%;
+	height: auto;
+	background-color: #D5BFBF;
+	border-radius: 10px; ;
+}
 
 /* Formmulario de ingreso*/
 #form {
@@ -100,23 +116,32 @@ main .card-deck .rating {
     margin: 5% auto;
     width: 500px;
     height: auto;
-    background-color: #ffe194;
+    background-color: #316B83;
     padding: 35px;
     color: rgba(3, 3, 3, 0.788);
     font-family: 'Alegreya Sans', sans-serif;
     border-radius: 10px;  
-	
+    text-align: center;
+    	
 }
-input, button {
+
+input, .btn-green {
     padding: 15px;
     border-radius: 5px;
     outline: 5px;
-    border: solid 1px #ffb319 ;
+    border: solid 1px #D5BFBF ;
     width: 300px;
     
 }
 
 .btn-green{
-    color: #faedf3;
-    background-color:  #ffb319;
+    color: black;
+    background-color:  #D5BFBF;
 }
+
+#titulo {
+    font-family: monospace;
+    color: #D5BFBF;
+}
+
+
