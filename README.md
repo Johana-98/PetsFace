@@ -1,1 +1,2 @@
-# PetsFace by Flor, Alicia, Mara, Jannet, Flor V. y Johana
+# PetsFace 
+Realizado por: Florencia A., Alicia, Janette, Florencia V., Mara, Romina y Johana
